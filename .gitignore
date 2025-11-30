@@ -1,0 +1,17 @@
+# Ignore build/output files
+*.bin
+*.hex
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System
+.DS_Store
+Thumbs.db
