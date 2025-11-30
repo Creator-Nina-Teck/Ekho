@@ -1,21 +1,10 @@
-#ifndef CONFIG_H
-#define CONFIG_H
+#pragma once
 
+// Pin definitions
+#define MIC_PIN       A0
+#define SPK_PIN       9
+#define BUTTON_PIN    4
 
-#define BTN_RECORD 4
-#define BTN_PLAY 5
-#define BTN_RANDOM 6
-
-
-#define I2S_WS 7
-#define I2S_SD 8
-#define I2S_SCK 9
-
-
-#define SPK_PIN 10
-
-
-#define MAX_CLIPS 20
-#define MAX_DURATION_SEC 12
-
-#endif
+// Recording parameters
+#define SAMPLE_RATE   16000
+#define MAX_DURATION  8000   // ms (8 seconds max)
